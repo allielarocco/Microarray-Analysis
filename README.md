@@ -8,15 +8,12 @@ Data:
 - RNA-seq data extracted from BioJupies (3)
 - Rapamycin gene signature from CREEDS
 - Autophagy gene signature predictions from Geneshot (6)
+- example_metadata.csv: Example of metadata, focused on autophagy
+- probe2gene.txt.zip: Text file used to map microarray probes to gene symbols
 
-Microarray Analysis from CSV Function:
+Notebooks:
 - Analysis from CSV to Clustergrammer Matrix.ipynb: Takes CSV of GEO metadata, performs differential expression analysis, and exports as Jaccard similarity matrix (for Clustergrammer heatmap visualization)
 - Analysis from CSV to GMT.ipynb: Takes CSV of GEO metadata, performs differential expression analysis and exports as GMT file
-- example_metadata.csv: Example of metadata, focused on autophagy
-- microarray_analysis_function.py: Function for performing microarray analysis, returns lists of up- and down-regulated genes
-- parse_harmonizome_json.py: Python script for parsing gene sets from Harmonizome's API
-- probe2gene.txt.zip: Text file used to map microarray probes to gene symbols
 
-Microarray Analysis Single Study:
-- Microarray Analysis Single Study.ipynb: Takes user input of GEO accession ID, control, and treated samples and performs differential expression analysis and enrichment analysis
-- probe2gene.txt.zip: Text file used to map microarray probes to gene symbols
+Scripts:
+- microarray_analysis_function.py: Function for performing microarray analysis, returns lists of up- and down-regulated genes
