@@ -14,6 +14,7 @@ Data:
 Notebooks:
 - Analysis from CSV to Clustergrammer Matrix.ipynb: Takes CSV of GEO metadata, performs differential expression analysis, and exports as Jaccard similarity matrix (for Clustergrammer heatmap visualization)
 - Analysis from CSV to GMT.ipynb: Takes CSV of GEO metadata, performs differential expression analysis and exports as GMT file
+- Microarray Analysis Single Study.ipynb: Takes user input of accession id and control and treated samples to perform differential and enrichment analysis on gene expression data
 
 Scripts:
 - microarray_analysis_function.py: Function for performing microarray analysis, returns lists of up- and down-regulated genes
